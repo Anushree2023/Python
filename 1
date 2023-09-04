@@ -1,0 +1,32 @@
+Ed
+import math
+Ax=int(input("Enter first X coordinate "))
+Ay=int(input("Enter first Y coordinate "))
+Bx=int(input("Enter second X coordinate "))
+By=int(input("Enter second Y coordinate "))
+ed=math.sqrt((Bx-Ax)**2+(By-Ay)**2)
+print(ed)
+Manhattan
+import math
+Ax=int(input("Enter first X coordinate "))
+Ay=int(input("Enter first Y coordinate "))
+Bx=int(input("Enter second X coordinate "))
+By=int(input("Enter second Y coordinate "))
+ed=math.sqrt(abs(Bx-Ax)+abs(By-Ay))
+print(ed)
+PercentAGE
+name=input("Enter name os student")
+M=int(input("Enter  percentage marks in Maths"))
+P=int(input("Enter  percentage marks in Physics"))
+C=int(input("Enter  percentage marks in Chemistry"))
+tot=M+P+C/300
+incentive=tot+0.5
+print("-----------Score Card-------------")
+print("Name:",name)
+print("----------------------------------")
+print("Physics:",P)
+print("Chemistry:",C)
+print("Maths:",M)
+print("Total:",tot)
+print("Percentage with incentive:",incentive)
+
